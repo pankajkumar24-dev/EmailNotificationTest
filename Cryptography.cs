@@ -1,23 +1,11 @@
-﻿////-----------------------------------------------------------------------
-// <copyright file="Cryptography.cs" company="Dhii Health Tech Pvt. Ltd.">
-//     Copyright © Dhii Health Tech Pvt. Ltd.. All rights reserved.
-// </copyright>
-// <author>DHII\NagaJyothiG</author>
-// <email>naga.jyothig@dhii.in</email>
-// <date>16/04/2013</date>
-// <summary>no summary</summary>
-// <project>DhiiDiabeticEHR<project>
-////********************************History********************************
-//     Date    Add/Modified by     Method   Summary
-//
-////-----------------------------------------------------------------------
+
 
 using System;
 using System.IO;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace DhiiDiabeticEHR.Security
+namespace Security
 {
     /// <summary>
     /// Cryptography is used to encrypt and decrypt strings
