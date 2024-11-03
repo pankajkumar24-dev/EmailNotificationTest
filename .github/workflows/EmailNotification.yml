@@ -18,7 +18,7 @@ jobs:
           username: ${{ secrets.EMAIL_USERNAME }}
           password: ${{ secrets.EMAIL_PASSWORD }}
           subject: "GitHub Action Notification"
-          to: pkumargithub@gmail.com
+          to: pankajpremi1986@gmail.com
           from: pkumargithub@gmail.com
           content_type: text/html
           body: |
