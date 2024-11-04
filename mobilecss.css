@@ -1,0 +1,379 @@
+﻿
+@media only screen and (max-width: 500px) {
+    .sitename {
+        font-size: 20px;
+        color: #000000;
+        text-align: center;
+        /*padding-left:50px;*/
+      
+    }
+
+        .sitename img {
+            height: 30px;
+            /*display: block;*/
+            /*visibility:hidden;*/
+            /*content:url("/Images/logo.png");*/
+            margin-bottom: 10px;
+          float:none !important;
+        }
+
+        .sitename sup {
+            font-size: 10px;
+        }
+
+    #sitename1 {
+        /*float: left;*/
+        display: block;
+    }
+    /*footer{
+        display:none; #div_FilterCriteria, #divCurrentSelections,
+    }*/
+    #divForgotPassword, #ForgotPass, #login_footer, /*#div_FilterCriteria,*/ /*#divCurrentSelections,*/ .tile-stats a {
+        display: none;
+    }
+
+    .login i {
+        display: none;
+    }
+
+    .login {
+        padding-bottom: 60px;
+    }
+
+        .login input {
+            outline: none;
+            color: #444;
+            border-color: #CCC;
+            border-left-width: 0px;
+            border-top-width: 0px;
+            border-right-width: 0px;
+        }
+
+        .login .title {
+            border-bottom: 0px;
+            display:none;
+        }
+
+    .checkbox {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #div_chkbox {
+        padding: 0px;
+    }
+
+    .wrapper {
+        background: #FFFFFF;
+    }
+
+    #nav_horizondal_scroll::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+
+    body:not(.nav-md) {
+        /*display: table;*/
+        margin: 0 auto;
+    }
+
+    .toggle a i {
+        font-size: 20px;
+    }
+
+    .toggle a {
+        padding: 5px 5px 0;
+        margin: 0;
+        cursor: pointer;
+    }
+
+    .toggle {
+        width: 50px;
+    }
+
+    .homeicon {
+        font-size: 200%;
+    }
+
+    .fixed_height_200 {
+        height: 100px;
+    }
+
+    .h3, h3 {
+        font-size: 13px;
+    }
+
+    .homeicon_icon {
+        margin: 0px 5px 0;
+    }
+
+    .navbar-brand, .navbar-nav > li > a {
+        padding: 0px 10px;
+    }
+
+    .user-profile img {
+        width: 25px;
+        height: 25px;
+        vertical-align: top;
+        margin-right: 0px;
+    }
+
+    .main_icon {
+        font-size: 15px;
+    }
+
+    .row {
+        margin-left: -7px;
+    }
+
+    .nav_menu {
+        margin-bottom: 0px;
+    }
+
+    /*.mobTicketDetails {
+        width: 152%;
+    }*/
+
+    footer {
+        padding: 0px;
+    }
+
+    .footer_fixed footer {
+        z-index: 5000;
+    }
+
+    .sidebar-footer {
+        width: 100%;
+    }
+
+    body {
+        background: #FFFFFF;
+    }
+
+
+    .login .title {
+        color: #FFF;
+    }
+
+    .login input + i.fa {
+        left: 10px;
+    }
+
+    .login {
+        float: right;
+        border-radius: 2px 2px 5px 5px;
+        padding: 0px;
+        margin-right: 20px;
+        margin-top: 70px;
+        width: 90%;
+        max-width: 420px;
+        background: none;
+        position: relative;
+        padding-bottom: 40px;
+        box-shadow: none;
+    }
+
+        .login button {
+            height: 40px;
+            border: none;
+        }
+
+
+
+        .login.ok button {
+            background-color: none;
+        }
+
+        .login.loading button {
+            max-height: none;
+            padding-top: inherit;
+        }
+
+        .login button {
+            padding: 0px;
+        }
+
+    #rmbspan {
+        /*color:white;*/
+        color: #808080;
+    }
+
+    #chkremember {
+        margin-left: -0px;
+    }
+
+    .login button {
+        background: #db163d;
+    }
+
+    .right_col {
+        padding: 4px 4px 0px 4px !important;
+    }
+
+    .nav_menu {
+        background: #FFFFFF;
+    }
+
+    #MobFiltersButtonsHide {
+        padding-top: 5px;
+        background: #FFF;
+        height: 40px;
+        /*border-bottom:1px solid #ebebeb;*/
+        border-top: 1px solid #ebebeb;
+    }
+
+    #btn_MobFilters, #btn_MobFilters_Selections {
+        border-radius: 0px;
+    }
+
+    #MobileMenuScroll nav {
+        height: 30px;
+        background: #fafafa;
+        overflow-x: auto;
+        overflow-y: hidden;
+        padding-top: 12px;
+        /*border-top:1px solid #ebebeb;
+              border-bottom:1px solid #ebebeb;*/
+        /*border: outset;*/
+    }
+
+    #MobileMenuScroll ul {
+        width: max-content;
+        position: relative;
+      
+    }
+
+    #MobileMenuScroll li {
+        display: block;
+        float: left;
+        width: auto;
+        height: 18px;
+        line-height: .5;
+        text-align: center;
+        cursor: pointer;
+          margin: 0 1em 0 0;
+        
+    }
+
+        #MobileMenuScroll li.active {
+            margin: 0 auto;
+            border-bottom: 2px red solid;
+             margin:0 1em 0 0;
+        }
+
+            #MobileMenuScroll li.active a {
+                color: red;
+            }
+
+    #MobileMenuScroll {
+        margin-left: auto;
+        margin-right: auto;
+        overflow-x: scroll;
+    }
+
+        #MobileMenuScroll a {
+            color: black;
+        }
+
+    .accordion_in .fixed_height_200 {
+        height: 200px;
+    }
+    /*::-webkit-scrollbar{ 
+    display: none; 
+}*/
+
+    #myselections {
+        height: 200px;
+    }
+
+    .qv-panel-current-selections {
+        background: #FFFFFF;
+        height: 300px;
+    }
+
+    .qv-panel-current-selections {
+        max-height: 200px;
+    }
+
+        .qv-panel-current-selections .wrap {
+            border-bottom: 0px solid;
+            margin-left: 20px;
+        }
+
+        .qv-panel-current-selections .no-selection {
+            color: #333333 !important;
+            margin-left: 0px;
+        }
+
+    .right_col {
+        min-height: 0px !important;
+    }
+
+    #MobFiltersHideMenu {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .qv-panel-current-selections li {
+        display: table-row;
+        /*padding-bottom:500px;*/
+        border: 1px solid #CCC;
+        height: 40px;
+    }
+
+    .qv-panel-current-selections .qv-selections-pager {
+        height: 100% !important;
+    }
+
+    .qv-panel-current-selections .item {
+        width: 100%;
+        color: #444;
+    }
+
+    .qv-panel-current-selections ul {
+        background: #FFF;
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    .selectionheading {
+        padding-left: 20px;
+        height: 20px;
+        padding-top: 4px;
+    }
+   #dropDown_nWPpRfZ {
+   
+    left:1px !important;
+   
+}
+    .daterangepicker {
+    width:100% !important;
+    }
+    .daterangepicker .ranges {
+    width: 100%;
+    text-align: center;
+    margin: 4px;
+}
+    .daterangepicker .daterangepicker_input {
+  
+    width: 100% !important;
+}
+    .daterangepicker.opensright .ranges, .daterangepicker.opensright .calendar, .daterangepicker.openscenter .ranges, .daterangepicker.openscenter .calendar {
+     float: none !important;
+     align-items:center; 
+}
+    
+   #div_LastUpdatedTime_Mob .qv-object-text-image .qv-media-tool-editor, .qv-object-text-image .qv-media-tool-html {
+     font-size: 8px !important; 
+    line-height: 1.4;
+}
+  #div_LastUpdatedTime_Mob .qv-object-text-image {
+     color: #172D44; 
+}
+ .daterangepicker .calendar {
+  
+     max-width: none !important; 
+  
+}
+
+}
